@@ -1,0 +1,10 @@
+/*trying to change the color of the footer*/
+.footer {
+    background-color: #f8ac59 important!;
+  }
+
+/*trying to change the color of the nav-bar tracker*/
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color: #fff;
+    background: #ed5565 important!;
+  }
