@@ -1,10 +1,16 @@
-/*trying to change the color of the footer*/
+/*change the color of the footer*/
 .footer {
-    background-color: #f8ac59 important!;
+    background-color: #ffbb33 !important;
   }
 
-/*trying to change the color of the nav-bar tracker*/
-#mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+/*change the color of the scrollspy*/
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #ed5565 important!;
+    background: #cc0000 !important;
+  }
+
+/*highlighting the links in the nav-bar when hovered over*/
+ #mainNav .navbar-nav li.nav-item a:hover {
+    color: #000000 !important;
+    text-decoration: underline overline;
   }
